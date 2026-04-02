@@ -169,23 +169,23 @@ const VersionOne = () => {
           
           <div className="hidden lg:flex items-center gap-8">
             <button className="flex items-center gap-1 text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">
-              Feature <ChevronDown className="w-4 h-4" />
+              功能 <ChevronDown className="w-4 h-4" />
             </button>
-            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">Pricing</button>
+            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">定价</button>
             <button className="flex items-center gap-1 text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">
-              Customers <ChevronDown className="w-4 h-4" />
+              客户 <ChevronDown className="w-4 h-4" />
             </button>
-            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">FAQ</button>
-            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">Enterprise</button>
-            <button className="text-[13px] font-bold text-brand uppercase tracking-wider border-b-2 border-brand">About Us</button>
+            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">常见问题</button>
+            <button className="text-[13px] font-bold text-slate-600 uppercase tracking-wider hover:text-brand transition-colors">企业版</button>
+            <button className="text-[13px] font-bold text-brand uppercase tracking-wider border-b-2 border-brand">关于我们</button>
           </div>
 
           <div className="flex items-center gap-4">
             <button className="bg-gradient-to-r from-[#4173E3] to-[#6394FF] text-white px-8 py-3 rounded-full text-[13px] font-bold uppercase tracking-widest hover:shadow-lg hover:shadow-brand/20 transition-all">
-              Free Trial
+              免费试用
             </button>
             <button className="border-2 border-brand text-brand px-8 py-3 rounded-full text-[13px] font-bold uppercase tracking-widest hover:bg-brand hover:text-white transition-all">
-              Log In
+              登录
             </button>
           </div>
         </div>
@@ -220,22 +220,22 @@ const VersionOne = () => {
         <div className="max-w-[1360px] mx-auto text-center relative z-10">
           <FadeInWhenVisible>
             <span className="inline-block py-1 px-3 rounded-full bg-brand/10 text-brand text-xs font-bold uppercase tracking-wider mb-6">
-              Since 2011
+              自2011年起
             </span>
             <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight leading-[1.1] mb-8">
-              Simplify Your Waiver.<br />
-              <span className="text-brand">Amplify Your Business.</span>
+              简化您的免责申明。<br />
+              <span className="text-brand">助力您的业务腾飞。</span>
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-              We've helped businesses replace paper chaos with digital simplicity for over a decade.
+              我们已帮助企业将纸质混乱转为数字化简洁，持续超过十年。
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <button className="w-full sm:w-auto bg-brand text-white px-8 py-4 rounded-[32px] border border-brand font-bold text-lg hover:bg-brand-dark transition-all shadow-xl shadow-brand/25 flex items-center justify-center gap-2 group">
-                Start Free Trial
+                开始免费试用
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               <button className="w-full sm:w-auto bg-slate-50 text-slate-900 px-8 py-4 rounded-[32px] border-2 border-slate-200 font-bold text-lg hover:bg-slate-100 transition-all">
-                Contact Sales
+                联系销售
               </button>
             </div>
           </FadeInWhenVisible>
